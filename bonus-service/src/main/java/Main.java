@@ -5,8 +5,10 @@ public class Main {
 
     long amount = 1_000_60;
     boolean registered = true;
-    
-    service.calculate(amount, registered);
+
+    long withbonus = service.calculate(amount, registered);
+    System.out.println(withbonus);
+
 
   }
 }
